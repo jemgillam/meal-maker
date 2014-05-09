@@ -15,5 +15,8 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/jemgillam/meal-maker/issues"
+  },
+  "dependencies": {
+    "express": "~4.1.2"
   }
 }
