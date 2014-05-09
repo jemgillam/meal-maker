@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "description": "meal-maker ==========",
-  "main": "index.coffee",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,6 +17,7 @@
     "url": "https://github.com/jemgillam/meal-maker/issues"
   },
   "dependencies": {
-    "express": "~4.1.2"
+    "express": "~4.1.2",
+    "serve-static": "~1.1.0"
   }
 }
