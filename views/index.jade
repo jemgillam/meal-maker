@@ -3,3 +3,13 @@ extends layout
 block content
   h1= title
   p Welcome to #{title}
+
+  form(role="form")
+    div.form-group
+      label(for="recipeName") Recipe Name
+      input.form-control(type="text", name="recipeName", placeholder="eg Macaroni Cheese")
+    div.form-group
+      label(for="method") Method
+      textarea.form-control(type="text-area", name="method", rows="10")
+    button.btn.btn-default(type="submit") Save
+      
